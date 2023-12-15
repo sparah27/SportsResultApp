@@ -1,0 +1,13 @@
+configuration:
+  swagger:
+    app: 'Sport Result App'
+    description: 'Sport Result application for football matches built with Spring Boot'
+    developer: 'Sarah Spahić'
+    email: 'sarah.spahic@stu.ibu.edu.ba'
+mailsender:
+  default : 'sendgrid'
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://admin:sarajevo2000@sports-result.dg1sjed.mongodb.net/?retryWrites=true&w=majority
+      database: SportResultsApp
